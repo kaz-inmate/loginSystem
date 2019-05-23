@@ -1,0 +1,58 @@
+<section class="hero is-danger is-fullheight">
+    <div class="box" id="box-one">
+      <div class="field field-one">
+          {{> error}}
+      </div>
+        <form action="/" method="POST">
+        <div class="field">
+          <label class="label">Username</label>
+          <div class="control has-icons-left">
+            <input class="input" type="text" name="username" placeholder="Username">
+            <span class="icon is-small is-left has-text-black">
+              <i class="fas fa-user"></i>
+            </span>
+         </div>
+        </div>
+
+
+        <div class="field" class="field-one">
+            <label class="label">Email</label>
+            <div class="control has-icons-left">
+              <input class="input" type="email"  name="email" placeholder="Email" >
+              <span class="icon is-small is-left has-text-black">
+                <i class="fas fa-envelope"></i>
+              </span>
+           </div>
+          </div>
+        
+        <div class="field" class="field-one">
+            <label class="label">Password</label>
+            <div class="control has-icons-left">
+              <input class="input" type="password" name="password" placeholder="Password" >
+              <span class="icon is-small is-left has-text-black">
+                <i class="fas fa-key"></i>
+              </span>
+           </div>
+          </div>
+
+          <div class="field" class="field-one">
+              <label class="label">Confirm Password</label>
+              <div class="control has-icons-left">
+                <input class="input" type="password" name="password2" placeholder="Confirm Password" >
+                <span class="icon is-small is-left has-text-black">
+                  <i class="fas fa-key"></i>
+                </span>
+             </div>
+            </div>
+            
+            <div class="field is-grouped">
+          <div class="control">
+            <button class="button  is-info"><a href="/login">SignIn</a></button>
+          </div>
+          <div class="control">
+             <button type="submit" class="button is-link">Register</button>
+          </div>
+        </div>
+        </form>
+        </div>
+  </section>

@@ -1,0 +1,31 @@
+ {{#if errors}}
+    {{#each errors}}
+    <div class="tag is-danger">
+        {{this.msg}}
+        <button class="delete is-small"></button>
+      </div>
+   {{/each}}
+{{/if}}
+
+{{#if success_msg}}
+    <div class="tag is-success ">
+         {{success_msg}}
+        <button class="delete is-small"></button>
+      </div>
+{{/if}}
+
+
+{{#if error_msg}}
+    <div class="tag is-danger ">
+         {{error_msg}}
+        <button class="delete is-small"></button>
+      </div>
+{{/if}}
+
+
+{{#if error}}
+    <div class="tag is-danger ">
+         {{error}}
+        <button class="delete is-small"></button>
+      </div>
+{{/if}}

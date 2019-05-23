@@ -1,0 +1,11 @@
+.hero {
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    width: 400px;
+    margin-top: 200px;
+  }
+  .field{
+    width: 300px;
+  }
