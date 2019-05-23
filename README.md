@@ -10,4 +10,4 @@ $npm install
 
 $node index.js
 
-#Open brower and goto http://localhost:5000
+#Open brower and goto localhost:5000
